@@ -12,6 +12,7 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import CookiesPage from './pages/CookiesPage';
 import TermsPage from './pages/TermsPage';
+import LoginPage from './pages/LoginPage';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/cookies" element={<CookiesPage />} />
             <Route path="/terms" element={<TermsPage />} />
+            <Route path="/login" element={<LoginPage />} />
           </Routes>
         </Layout>
       </Router>

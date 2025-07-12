@@ -225,7 +225,7 @@ const ConfirmationPage = () => {
           </p>
           <p className="text-sm text-muted-foreground">
             Call us at <span className="font-medium">+1 (555) 123-4567</span> or email{' '}
-            <span className="font-medium">support@foodieexpress.com</span>
+            <span className="font-medium">support@khanakhazana.com</span>
           </p>
         </div>
       </div>

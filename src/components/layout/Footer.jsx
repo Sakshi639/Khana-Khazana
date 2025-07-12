@@ -33,9 +33,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">F</span>
+                <span className="text-white text-lg" role="img" aria-label="curry">🍛</span>
               </div>
-              <span className="text-xl font-bold text-foreground">FoodieExpress</span>
+              <span className="text-xl font-bold text-foreground">Khana Khazana</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Delivering delicious food to your doorstep. Fresh, fast, and always satisfying.
@@ -79,7 +79,7 @@ const Footer = () => {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
                   >
                     {link.label}
                   </Link>
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} FoodieExpress. All rights reserved.
+              © {currentYear} Khana Khazana. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link

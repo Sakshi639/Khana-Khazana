@@ -80,7 +80,7 @@ const HomePage = () => {
                   className="rounded-2xl shadow-2xl w-full border-4 border-primary"
                   onError={e => {
                     e.target.onerror = null;
-                    e.target.src = 'https://via.placeholder.com/800x600?text=FoodieExpress';
+                    e.target.src = 'https://via.placeholder.com/800x600?text=Khana%20Khazana';
                   }}
                 />
               </div>
@@ -214,9 +214,7 @@ const HomePage = () => {
                 Browse Menu
               </Button>
             </Link>
-            <Button size="lg" variant="secondary" className="w-full sm:w-auto">
-              Download App
-            </Button>
+            {/* Download App button removed as requested */}
           </div>
         </div>
       </section>
